@@ -22,21 +22,6 @@ const Font = styled.h1`
     padding-top : 150px;
 `
 
-const ColorFont = styled.td`
-    color : #FFFFFF ;
-    font-size : 96px;
-    Font-Family : Kanit;
-    font-weight: bold;
-    text-align: center;
-    height : 1440px;
-    padding-top : 150px;
-`
-
-
-
-
-
-
 const TimeLine = () => (
     
     <BG>
