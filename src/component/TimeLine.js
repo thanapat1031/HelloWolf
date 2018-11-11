@@ -10,57 +10,55 @@ const BG = styled.div`
     min-weight: 100vw ;
     min-height: 100vh ;
     text-align: center;
-
-`
-const Font = styled.h1`
-    color : #FFFFFF ;
-    font-size : 96px;
     Font-Family : Kanit;
-    font-weight: bold;
-    text-align: center;
-    height : 1440px;
-    padding-top : 150px;
 `
-
-const ColorFont = styled.td`
-    color : #FFFFFF ;
-    font-size : 96px;
-    Font-Family : Kanit;
-    font-weight: bold;
-    text-align: center;
-    height : 1440px;
-    padding-top : 150px;
+const Font = styled.p`
+color : #FFFFFF ;
+font-size : 96px;
+Font-Family : Kanit;
+font-weight: bold;
+text-align: center;
+padding-top : 100px; 
 `
-
-
-
-
+const FontTitle = styled.p`
+color : #FFFFFF ;
+font-size : 30px;
+Font-Family : Kanit;
+font-weight: bold;
+text-align: center;
+// padding-top : 100px; 
+`
 
 
 const TimeLine = () => (
     
     <BG>
-        <div>
         <Font>
              TIME MACHINE
         </Font>
-        </div>
-
         <div className="row">
             <div className="col-3">
                 <Box src="img/wolf.png" />
-            </div>
-            <div className="col-3">
-                <Box src="img/wolf.png" />  
-            </div>
-            <div className="col-3">
-                <Box src="img/wolf.png" />
+                <FontTitle>รับสมัคร</FontTitle>
+                <FontTitle>13 พฤศจิกายน</FontTitle>
             </div>
             <div className="col-3">
                 <Box src="img/wolf.png" />
+                <FontTitle>ปิดรับสมัคร</FontTitle>
+                <FontTitle>19 พฤศจิกายน</FontTitle> 
+            </div>
+            <div className="col-3">
+                <Box src="img/wolf.png" />
+                <FontTitle>ประกาศผล</FontTitle>
+                <FontTitle>22 พฤศจิกายน</FontTitle>
+            </div>
+            <div className="col-3">
+                <Box src="img/wolf.png" />
+                <FontTitle>วันค่าย</FontTitle>
+                <FontTitle>25-27 พฤศจิกายน</FontTitle>
             </div>
         </div>
-</BG>
+    </BG>
 
 )
 export default TimeLine
