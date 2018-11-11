@@ -7,6 +7,8 @@ background-image : url ("img/contact.png")
 
 const Contact = () => (
     <div>
-
+    
     </div>
 )
+
+export default Contact 
