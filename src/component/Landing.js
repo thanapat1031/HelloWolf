@@ -5,6 +5,7 @@ import styled from 'styled-components'
 
 const Bg = styled.div`
 background-image : url("/img/landing.png") ;
+
 background-repeat: no-repeat;
 background-size: cover;
 weight: 100vw;
@@ -17,22 +18,17 @@ font-weight: bold;
 font-size: 150px;
 color : #FFFF;
 padding-top : 100px;
-Line Height: 299px;
+ Height: 299px;
 `
 const Img = styled.img`
 padding-bottom : 50px;
 `
-
 const Img1 = styled.img`
-// margin-right : 2000px;
-// padding-right : px;
+paddin-bottom : ;
+
 `
-
 const Img2 = styled.img`
-<<<<<<< HEAD
-=======
 
->>>>>>> f7bca7dacfa1d835d8f2b5dd3a81e9b9ad94775f
 `
 
 const Landing = () => (
