@@ -11,7 +11,12 @@ const BG = styled.div`
     min-height: 100vh ;
     text-align: center;
     Font-Family : Kanit;
+    z-index : 1 ;
 `
+<<<<<<< HEAD
+=======
+
+>>>>>>> a19cf761fb13b24dfa788232d62e0e5bd3672834
 const Font = styled.p`
 color : #FFFFFF ;
 font-size : 96px;
@@ -19,6 +24,7 @@ Font-Family : Kanit;
 font-weight: bold;
 text-align: center;
 padding-top : 100px; 
+z-index : 1 ;
 `
 const FontTitle = styled.p`
 color : #FFFFFF ;
@@ -27,7 +33,16 @@ Font-Family : Kanit;
 font-weight: bold;
 text-align: center;
 // padding-top : 100px; 
+z-index : 1 ;
 `
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> a19cf761fb13b24dfa788232d62e0e5bd3672834
 
 
 const TimeLine = () => (
