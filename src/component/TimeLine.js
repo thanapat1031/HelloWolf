@@ -40,7 +40,7 @@ const ColorFont = styled.td`
 const TimeLine = () => (
     
     <BG>
-         <div>
+        <div>
         <Font>
              TIME MACHINE
         </Font>
@@ -60,50 +60,6 @@ const TimeLine = () => (
                 <Box src="img/wolf.png" />
             </div>
         </div>
-     <br></br>
-        <div>
-            <table >
-                <tr>
-                    <ColorFont>
-                        รับสมัคร
-                    </ColorFont>
-
-                    <ColorFont>
-                        ปิดรับสมัคร
-                    </ColorFont>
-
-                    <ColorFont>
-                        ประกาศผล
-                    </ColorFont>
-
-                    <ColorFont>
-                        วันค่าย
-                    </ColorFont>
-                </tr>
-        </table>
-    </div>
-    <br></br>
-        <div>
-            <table >
-                <tr>
-                    <ColorFont>
-                        13 พฤศจิกายน
-                    </ColorFont>
-
-                    <ColorFont>
-                        19 พฤศจิกายน
-                    </ColorFont>
-
-                    <ColorFont>
-                        22 พฤศจิกายน
-                    </ColorFont>
-
-                    <ColorFont>
-                        25-27 พฤศจิกายน
-                    </ColorFont>
-                </tr>
-        </table>
-    </div>
 </BG>
 
 )
