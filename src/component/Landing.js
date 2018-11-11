@@ -1,13 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-// import Image from './bg-landing.png'
 
 
 
 const Bg = styled.div`
 background-image : url("/img/landing.png") ;
-<<<<<<< HEAD
-=======
 background-repeat: no-repeat;
 background-size: cover;
 weight: 100vw;
@@ -32,7 +29,7 @@ const Img1 = styled.img`
 `
 
 const Img2 = styled.img`
->>>>>>> bc5c58dda1db2bc57ed501e73e6cce325af9e30b
+
 `
 
 const Landing = () => (
