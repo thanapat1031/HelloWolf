@@ -20,12 +20,12 @@ padding-top : 100px;
 Line Height: 299px;
 `
 const Img = styled.img`
-padding-bottom : 50px
+padding-bottom : 50px;
 `
 
 const Img1 = styled.img`
-// margin-right : 2000px
-// padding-right : px
+// margin-right : 2000px;
+// padding-right : px;
 `
 
 const Img2 = styled.img`
