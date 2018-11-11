@@ -2,16 +2,15 @@ import React from 'react';
 import styled from 'styled-components'
 
 
-const Img = styled.img`
-height : 150px;
-weight : 150px;
-z-index : 1 ;
+const Imgae = styled.img`
+height : 75px;
+weight : 75px;
 `
 
 
 const Box =(props) => 
 (
-    <Img src={props.src}/>  
+    <Imgae src={props.src}/>  
     
 )
 
