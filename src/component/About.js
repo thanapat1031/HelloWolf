@@ -6,6 +6,9 @@ background-image : url("/img/about.jpg") ;
 min-height : 100vh ;
 weight : 100vw ;
 overflow-x: hidden;
+text-align: center;
+background repeat : no-repeat;
+background-size: cover;
 `
 
 const Ab = styled.h1 `
@@ -13,7 +16,7 @@ color : #FFFFFF ;
 font-size : 96px ;
 font-family : Kanit ;
 font-weight : bold ;
-text-align: center;
+text-align : center;
 height : 144px ;
 `
 const Img = styled.img`

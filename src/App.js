@@ -5,6 +5,7 @@ import About from './component/About';
 import Contact from './component/Contact';
 
 
+
 class App extends Component {
   render() {
     return (
@@ -16,6 +17,7 @@ class App extends Component {
         <TimeLine />
 
         <Contact />
+
       </div>
     )
   }

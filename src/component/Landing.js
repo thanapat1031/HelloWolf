@@ -25,8 +25,10 @@ padding-bottom : 50px;
 `
 const Img1 = styled.img`
 paddin-bottom : ;
+
 `
 const Img2 = styled.img`
+
 `
 
 const Landing = () => (
