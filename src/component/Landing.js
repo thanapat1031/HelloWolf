@@ -6,7 +6,6 @@ import styled from 'styled-components'
 
 const Bg = styled.div`
 background-image : url("/img/landing.png") ;
-
 `
 
 const Landing = () => (
