@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Bg = styled.div `
 background-image : url("/img/about.jpg") ;
 min-height : 100vh ;
-width : 100vw ;
+weight : 100vw ;
 overflow-x: hidden;
 `
 

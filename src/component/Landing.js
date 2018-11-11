@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-// import Image from './bg-landing.png'
 
 
 
@@ -19,13 +18,16 @@ font-weight: bold;
 font-size: 150px;
 color : #FFFF;
 padding-top : 100px;
-Line Height: 299px;
+ Height: 299px;
 `
 const Img = styled.img`
-padding-bottom : 50px
+padding-bottom : 50px;
 `
-
-
+const Img1 = styled.img`
+paddin-bottom : ;
+`
+const Img2 = styled.img`
+`
 
 const Landing = () => (
     <Bg>
@@ -35,7 +37,6 @@ const Landing = () => (
         <Img2 src='/img/Group.png'/>
     </Bg>
 )
-
 
 
 
