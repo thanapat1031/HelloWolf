@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Landing from './component/Landing'
+import TimeLine from './component/TimeLine'
+import Box from './component/Box'
 
 
 class App extends Component {
@@ -7,6 +9,8 @@ class App extends Component {
     return (
       <div>
         <Landing />
+        <TimeLine/>
+        <Box/>
       </div>
     )
 }
