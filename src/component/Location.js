@@ -16,6 +16,7 @@ color : #FFFF;
 Font-Family : Kanit;
 font-size : 90px;
 font-weight: bold;
+padding-top : 80px;
 `
 const Img = styled.img`
 height : 500px ;

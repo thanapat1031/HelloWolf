@@ -55,7 +55,7 @@ const Navbar = () => (
             <A class="nav-link" href="#Timeline">TIME MACHINCE</A>
           </li>
           <li class="nav-item pl-4 ">
-            <A class="nav-link" href="#">LOCATION</A>
+            <A class="nav-link" href="#Location">LOCATION</A>
           </li>
           <li class="nav-item pl-4 ">
             <A class="nav-link" href="#Contact">CONTACT</A>
