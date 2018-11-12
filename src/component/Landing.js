@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const Bg = styled.div`
 background-image : url("/img/landing.png") ;
-
+font-family : Kanit ;
 background-repeat: no-repeat;
 background-size: cover;
 width: 100vw;

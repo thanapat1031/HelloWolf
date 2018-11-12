@@ -11,7 +11,6 @@ const Bg = styled.div`
   overflow-x:hidden;
 `
 
-
 class App extends Component {
   render() {
     return (
