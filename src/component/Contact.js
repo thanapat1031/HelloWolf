@@ -20,13 +20,8 @@ font-family : Kanit ;
 font-weight : bold ;
 text-align : center;
 height : 144px ;
-<<<<<<< HEAD
-padding-top : 100px ;
-padding-botton : 500px ;
-=======
 padding-top : 150px ;
 padding-bottom : 150px ;
->>>>>>> f7420755bfdbf42de86de76d77685f5890c099bf
 `
 const Font = styled.h1`
 padding-top : 150px ;
@@ -44,20 +39,8 @@ text-align: right;
 float: left;
 `
 
-<<<<<<< HEAD
-
-const Pic = styled.td`
-padding-left : 900px;
-`
-const Area = styled.div`
-padding-left : 180px;
-`
-const Area1 = styled.div`
-padding-left : 150px;
-=======
 const Pic = styled.img`
-height: 75px;
-width: 75px;
+padding-left : -900px ;
 `
 const Table = styled.div`
 padding-top : 150px ;
@@ -71,7 +54,16 @@ font-size : 30px;
 font-weight: bold;
 text-align: center;
 padding-right : 250px; 
->>>>>>> f7420755bfdbf42de86de76d77685f5890c099bf
+`
+
+const Area = styled.div `
+padding-left : 180px ;
+
+`
+
+const Area1 = styled.div `
+padding-left : 150px ;
+
 `
 
 
