@@ -26,7 +26,7 @@ background-color : rgba(0,0,0,0.2);
 `
 
 const ImgWolf = styled.img`     
-height : 165px;
+height : 180px;
 margin-left: -790px;
 margin-top:-300px;  
 `
