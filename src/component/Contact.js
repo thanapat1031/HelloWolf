@@ -5,7 +5,7 @@ import BoxCon from './BoxCon'
 const Bg = styled.div `
 background-image : url("/img/BGCon.png") ;
 min-height : 100vh ;
-weight : 100vw ;
+width : 100vw ;
 overflow-x: hidden;
 text-align: center;
 background repeat : no-repeat;
@@ -21,7 +21,7 @@ font-weight : bold ;
 text-align : center;
 height : 144px ;
 padding-top : 150px ;
-padding-botton : 150px ;
+padding-bottom : 150px ;
 `
 const Font = styled.h1`
 padding-top : 150px ;
@@ -30,26 +30,27 @@ margin-right : 20px ;
 const FontTitle = styled.p`
 color : #FFFFFF ;
 font-size : 30px;
-Font-Family : Kanit;
+/* Font-Family : Kanit; */
 font-weight: bold;
 text-align: center;
 padding-top : 50px; 
 `
 
 const Pic = styled.img`
-height= 75px;
-width= 75px;
+height: 75px;
+width: 75px;
 `
 const Table = styled.div`
 padding-top : 150px ;
-padding-botton : 150px ;
+padding-bottom : 150px ;
+margin-left : 40px ;
 `
 const Fontline = styled.h3`
 color : #FFFFFF ;
 font-size : 30px;
-Font-Family : Kanit;
+/* Font-Family : Kanit; */
 font-weight: bold;
-// text-align: center;
+text-align: center;
 padding-right : 250px; 
 `
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import Landing from './component/Landing'
 import TimeLine from './component/TimeLine'
 import About from './component/About';
@@ -6,11 +7,15 @@ import Location from './component/Location';
 import Contact from './component/Contact';
 import Navbar from './component/Navbar' ;
 
+const Bg = styled.div`
+  overflow-x:hidden;
+`
+
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <Bg>
 
 
         <Navbar />
@@ -33,7 +38,7 @@ class App extends Component {
          </div>
 
 
-      </div>
+      </Bg>
     )
   }
 } 
