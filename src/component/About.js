@@ -30,6 +30,7 @@ background-color : rgba(0,0,0,.5) ;
 `
 
 const P1 = styled.h2 `
+Font-Family : Kanit;
 font-size : 31px ;
 font-weight : bold ;
 color : #FFFFFF ;

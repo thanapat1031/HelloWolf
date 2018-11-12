@@ -21,29 +21,23 @@ padding-top : 100px;
  Height: 299px;
 `
 const Img = styled.img`
-padding-bottom : 50px;
+padding-bottom : 100px;
 `
-const Img1 = styled.img`
-<<<<<<< HEAD
-`
-=======
-paddin-bottom : ;
->>>>>>> cbb8646a45db7f1b28b871567c3c8aed4c49e64f
-
-`
-const Img2 = styled.img`
-<<<<<<< HEAD
-=======
-
->>>>>>> cbb8646a45db7f1b28b871567c3c8aed4c49e64f
-`
+// const ImgIcon = styled.img`
+// padding-right :  30px;
+// margin-left : 1150px;
+// `
 
 const Landing = () => (
     <Bg>
         <Font>WOLF CAMP</Font>
-        <Img src='/img/Iconlanding.png'/>
-        <Img1 src='/img/Group2.png'/>
-        <Img2 src='/img/Group.png'/>
+        <div>
+            <Img src='/img/Iconlanding.png' />
+        </div>
+        <div className ="Landing-imgicon ml-auto pr-5">
+            <img src='/img/Group2.png' />
+            <img src='/img/Group.png' />
+        </div>
     </Bg>
 )
 
