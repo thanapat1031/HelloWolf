@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import Landing from './component/Landing'
 import TimeLine from './component/TimeLine'
 import About from './component/About';
+import TimeLine from './component/TimeLine';
+import Location from './component/Location';
 import Contact from './component/Contact';
 import Navbar from './component/Navbar' ;
 import Location from './component/Location' ;

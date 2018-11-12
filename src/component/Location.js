@@ -13,11 +13,15 @@ text-align : center;
 
 const Font = styled.h1`
 color : #FFFF;
+Font-Family : Kanit;
 font-size : 90px;
 font-weight: bold;
 `
 const Img = styled.img`
-background-color : rgba(0,0,0,.5);
+height : 728px ;
+width : 1200px ;
+border-radius: 35%;
+background-color : rgba(0,0,0,0.3);
 `
 
 const ImgWolf = styled.img`     
