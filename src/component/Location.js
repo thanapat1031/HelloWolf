@@ -18,33 +18,27 @@ font-size : 90px;
 font-weight: bold;
 `
 const Img = styled.img`
-height : 728px ;
-width : 1200px ;
+height : 500px ;
 border-radius: 35%;
-background-color : rgba(0,0,0,0.3);
+padding-left : 33px;
+margin-right : 500px;
+background-color : rgba(0,0,0,0.2);
 `
 
 const ImgWolf = styled.img`     
-div.bigGallPic{   
-    position:fixed;   
-    margin:auto;   
-    top:150px;   
-    left:150px;   
-    padding:3px;   
-    text-align:center;   
-    background-color:#FFFFFF;   
-    border:5px solid #666666;   
-    display:none;   
-    cursor:pointer;   
-}   
+height : 165px;
+margin-left: -790px;
+margin-top:-300px;  
 `
 
 
 const  Location  = () => (
     <Bg>
         <Font>LOCATION</Font>
-        <Img src='/img/map.png'height ="728" width="1202"/>
-        <ImgWolf src='/img/iconlocation.png' alt="smile" id="imgSmile"/>
+        <div>
+        <Img src='/img/map.png'/>
+        <ImgWolf src='/img/iconlocation.png'/>
+        </div>
     </Bg>
 )
 
