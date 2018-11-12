@@ -21,7 +21,14 @@ padding-top : 100px;
  Height: 299px;
 `
 const Img = styled.img`
-padding-bottom : 100px;
+padding-bottom : 50px;
+`
+const Img1 = styled.img`
+`
+
+
+
+const Img2 = styled.img`
 `
 // const ImgIcon = styled.img`
 // padding-right :  30px;

@@ -32,6 +32,13 @@ text-align: center;
 // padding-top : 100px; 
 z-index : 1 ;
 `
+
+
+
+
+
+
+
 const TimeLine = () => (
     
     <BG>
