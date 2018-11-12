@@ -6,33 +6,19 @@ import Contact from './component/Contact';
 import Navbar from './component/Navbar' ;
 
 
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> a19cf761fb13b24dfa788232d62e0e5bd3672834
 class App extends Component {
   render() {
     return (
       <div>
 
         <Navbar />
-
         <Landing />
-<<<<<<< HEAD
         <About />
         <TimeLine/>
-        <Contact />
-=======
-
         <About />
-
         <TimeLine />
-
         <Contact />
 
->>>>>>> a19cf761fb13b24dfa788232d62e0e5bd3672834
       </div>
     )
   }

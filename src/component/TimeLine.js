@@ -13,10 +13,7 @@ const BG = styled.div`
     Font-Family : Kanit;
     z-index : 1 ;
 `
-<<<<<<< HEAD
-=======
 
->>>>>>> a19cf761fb13b24dfa788232d62e0e5bd3672834
 const Font = styled.p`
 color : #FFFFFF ;
 font-size : 96px;
@@ -35,15 +32,6 @@ text-align: center;
 // padding-top : 100px; 
 z-index : 1 ;
 `
-<<<<<<< HEAD
-=======
-
-
-
-
-
->>>>>>> a19cf761fb13b24dfa788232d62e0e5bd3672834
-
 
 const TimeLine = () => (
     

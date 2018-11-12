@@ -9,6 +9,7 @@ overflow-x: hidden;
 text-align: center;
 background repeat : no-repeat;
 background-size: cover;
+font-family : Kanit ;
 `
 
 const Ab = styled.h1 `

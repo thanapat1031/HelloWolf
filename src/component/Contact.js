@@ -20,11 +20,13 @@ font-family : Kanit ;
 font-weight : bold ;
 text-align : center;
 height : 144px ;
-padding-top : 150px ;
-padding-botton : 150px ;
+padding-top : 100px ;
+padding-botton : 500px ;
 `
 const Font = styled.h1`
 padding-top : 150px ;
+padding-left : 100px
+padding-right : 500px;
 margin-right : 20px ;
 `
 const FontTitle = styled.p`
@@ -32,66 +34,60 @@ color : #FFFFFF ;
 font-size : 30px;
 Font-Family : Kanit;
 font-weight: bold;
-text-align: center;
-padding-top : 50px; 
+// margin-right : 50px ;
+text-align: right;
+float: left;
 `
 
-const Pic = styled.img`
-height= 75px;
-width= 75px;
+
+const Pic = styled.td`
+padding-left : 900px;
 `
-const Table = styled.div`
-padding-top : 150px ;
-padding-botton : 150px ;
+const Area = styled.div`
+padding-left : 180px;
 `
-const Fontline = styled.h3`
-color : #FFFFFF ;
-font-size : 30px;
-Font-Family : Kanit;
-font-weight: bold;
-// text-align: center;
-padding-right : 250px; 
+const Area1 = styled.div`
+padding-left : 150px;
 `
+
 
 const Contact = () => (
     <Bg>
         <Topic>
             CONTACT
         </Topic>
-   <Table>
-           <table>
-               <tr>
-                   <td>
-                        <Pic src="img/facebook.png"></Pic>
-                   </td>
-                   <td>
-                <Fontline> : Wolf Camp #1 </Fontline>
-                </td>
-               </tr>
-           </table>
-           <table>
-               <tr>
-                   <td>
-                        <Pic src="img/Tel.png"></Pic>
-                   </td>
-                   <td>
-                <Fontline> : 02-107-3576</Fontline>
-                </td>
-               </tr>
-           </table>
-           <table>
-               <tr>
-                   <td>
-                        <Pic src="img/From.png"></Pic>
-                   </td>
-                   <td>
-                <Fontline> : Wolfcamp@gmail.com</Fontline>
-                </td>
-               </tr>
-           </table>
-    </Table>
-    
-                {/* <img src="img/iconwolf.png" alt="picture" height="276" width="464"></img> */}
+
+        <Font>
+                <div className="row">
+                    <Area className="col-4">
+                        <BoxCon src="img/facebook.png" />
+                    </Area> 
+                    <div className="col-8">
+                        <FontTitle>: Wolf Camp #1 </FontTitle>        
+                    </div>
+                </div>
+<br></br>  
+                <div className="row">
+                    <Area className="col-4">
+                        <BoxCon src="img/Tel.png" />
+                    </Area> 
+                    <div className="col-8">
+                        <FontTitle>: 02-107-3576</FontTitle>    
+                    </div>
+                </div>
+<br></br>
+                <div className="row">
+                    <Area1 className="col-4">
+                        <BoxCon src="img/From.png" />
+                    </Area1> 
+                    <div className="col-8">
+                        <FontTitle>: Wolfcamp@gmail.com </FontTitle>    
+                    </div>
+                </div>
+        </Font>
+                <Pic>
+                     <img src="img/iconwolf.png" alt="picture" height="276" width="464"></img>
+                </Pic>
                 
     </Bg>
 )
@@ -129,3 +125,40 @@ export default Contact
                     </div>
                 </div>
         </Font> */}
+
+
+           {/* <Topic>
+            CONTACT
+        </Topic>
+   <Table>
+           <table>
+               <tr>
+                   <td>
+                        <Pic src="img/facebook.png"></Pic>
+                   </td>
+                   <td>
+                <Fontline> : Wolf Camp #1 </Fontline>
+                </td>
+               </tr>
+           </table>
+           <table>
+               <tr>
+                   <td>
+                        <Pic src="img/Tel.png"></Pic>
+                   </td>
+                   <td>
+                <Fontline> : 02-107-3576</Fontline>
+                </td>
+               </tr>
+           </table>
+           <table>
+               <tr>
+                   <td>
+                        <Pic src="img/From.png"></Pic>
+                   </td>
+                   <td>
+                <Fontline> : Wolfcamp@gmail.com</Fontline>
+                </td>
+               </tr>
+           </table>
+    </Table> */}
