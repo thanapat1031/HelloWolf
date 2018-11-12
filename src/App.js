@@ -18,11 +18,17 @@ class App extends Component {
 
         <Landing />
 
-        <About />
+         <div id = "About">
+          <About />
+         </div>
 
-        <TimeLine />
+         <div id = "Timeline">
+          <TimeLine /> 
+         </div>
 
-        <Contact />
+         <div id = "Contact">  
+          <Contact />
+         </div>
 
       </div>
     )

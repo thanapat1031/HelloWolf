@@ -13,11 +13,11 @@ background-size: cover;
 
 const Ab = styled.h1 `
 color : #FFFFFF ;
-font-size : 96px ;
+font-size : 90px ;
 font-family : Kanit ;
 font-weight : bold ;
 text-align : center;
-height : 144px ;
+height : 140px ;
 `
 const Img = styled.img`
     width: 200px ;   

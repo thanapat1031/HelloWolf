@@ -18,7 +18,7 @@ const A = styled.a`
   color: #FFFFFF;
   font-size : 20px;
   &:hover {
-    color: hotpink;
+    color: yellow ;
     text-decoration: none ;
 
 }
@@ -49,16 +49,16 @@ const Navbar = () => (
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item pr-1">
-            <A class="nav-link " href="#">ABOUT US</A>
+            <A class="nav-link " href="#About">ABOUT US</A>
           </li>
           <li class="nav-item pl-3 ">
-            <A class="nav-link" href="#">TIME MACHINCE</A>
+            <A class="nav-link" href="#Timeline">TIME MACHINCE</A>
           </li>
           <li class="nav-item pl-4 ">
             <A class="nav-link" href="#">LOCATION</A>
           </li>
           <li class="nav-item pl-4 ">
-            <A class="nav-link" href="#">CONTACT</A>
+            <A class="nav-link" href="#Contact">CONTACT</A>
           </li>
         </ul>
       </div>
