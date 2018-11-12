@@ -1,26 +1,44 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import Landing from './component/Landing'
 import TimeLine from './component/TimeLine'
 import About from './component/About';
+import Location from './component/Location';
 import Contact from './component/Contact';
 import Navbar from './component/Navbar' ;
 
+const Bg = styled.div`
+  overflow-x:hidden;
+`
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <Bg>
+
 
         <Navbar />
         <Landing />
-        <About />
-        <TimeLine/>
-        <About />
-        <TimeLine />
-        <Contact />
 
-      </div>
+         <div id = "About">
+          <About />
+         </div>
+
+         <div id = "Timeline">
+          <TimeLine /> 
+         </div>
+
+         <div id = "Location">
+           <Location/>
+         </div>
+
+         <div id = "Contact">  
+          <Contact />
+         </div>
+
+
+      </Bg>
     )
   }
-}
-export default App;
+} 
+export default App ;

@@ -7,13 +7,16 @@ const BG = styled.div`
     background-image : url("/img/Timeline.png") ;
     background repeat : no-repeat;
     background-size: cover;
-    min-weight: 100vw ;
+    width: 100vw ;
     min-height: 100vh ;
     text-align: center;
     Font-Family : Kanit;
     z-index : 1 ;
 `
+<<<<<<< HEAD
 
+=======
+>>>>>>> f7420755bfdbf42de86de76d77685f5890c099bf
 const Font = styled.p`
 color : #FFFFFF ;
 font-size : 96px;
@@ -32,7 +35,10 @@ text-align: center;
 // padding-top : 100px; 
 z-index : 1 ;
 `
+<<<<<<< HEAD
 
+=======
+>>>>>>> f7420755bfdbf42de86de76d77685f5890c099bf
 const TimeLine = () => (
     
     <BG>

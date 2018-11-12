@@ -5,7 +5,7 @@ import BoxCon from './BoxCon'
 const Bg = styled.div `
 background-image : url("/img/BGCon.png") ;
 min-height : 100vh ;
-weight : 100vw ;
+width : 100vw ;
 overflow-x: hidden;
 text-align: center;
 background repeat : no-repeat;
@@ -20,8 +20,13 @@ font-family : Kanit ;
 font-weight : bold ;
 text-align : center;
 height : 144px ;
+<<<<<<< HEAD
 padding-top : 100px ;
 padding-botton : 500px ;
+=======
+padding-top : 150px ;
+padding-bottom : 150px ;
+>>>>>>> f7420755bfdbf42de86de76d77685f5890c099bf
 `
 const Font = styled.h1`
 padding-top : 150px ;
@@ -32,13 +37,14 @@ margin-right : 20px ;
 const FontTitle = styled.p`
 color : #FFFFFF ;
 font-size : 30px;
-Font-Family : Kanit;
+/* Font-Family : Kanit; */
 font-weight: bold;
 // margin-right : 50px ;
 text-align: right;
 float: left;
 `
 
+<<<<<<< HEAD
 
 const Pic = styled.td`
 padding-left : 900px;
@@ -48,6 +54,24 @@ padding-left : 180px;
 `
 const Area1 = styled.div`
 padding-left : 150px;
+=======
+const Pic = styled.img`
+height: 75px;
+width: 75px;
+`
+const Table = styled.div`
+padding-top : 150px ;
+padding-bottom : 150px ;
+margin-left : 40px ;
+`
+const Fontline = styled.h3`
+color : #FFFFFF ;
+font-size : 30px;
+/* Font-Family : Kanit; */
+font-weight: bold;
+text-align: center;
+padding-right : 250px; 
+>>>>>>> f7420755bfdbf42de86de76d77685f5890c099bf
 `
 
 

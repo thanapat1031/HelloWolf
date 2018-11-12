@@ -4,10 +4,10 @@ import styled from 'styled-components'
 const Nav = styled.nav`
   background-color: #073C5C ;
   height : 90px ;
-  width : 1520px ;
+  width : 100% ;
   position : fixed;
-  background-attachment : ;
   z-index: 3 ;
+  
 `
 
 const Topic = styled.h2`
@@ -18,7 +18,7 @@ const A = styled.a`
   color: #FFFFFF;
   font-size : 20px;
   &:hover {
-    color: hotpink;
+    color: yellow ;
     text-decoration: none ;
 
 }
@@ -27,7 +27,7 @@ const A = styled.a`
 
 const Img = styled.img `
 height : 90px ;
-weight : 100px ;
+width : 90px ;
 padding-bottom : 9px ;
 ` 
 
@@ -39,7 +39,7 @@ const Navbar = () => (
     
 
     <div>
-      <Topic class="navbar-brand"> <Img src = "/img/icon.png" /> </Topic>
+      <Img src = "/img/icon.png" />
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         
         <span class="navbar-toggler-icon"></span>
@@ -49,16 +49,16 @@ const Navbar = () => (
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item pr-1">
-            <A class="nav-link " href="#">ABOUT US</A>
+            <A class="nav-link " href="#About">ABOUT US</A>
           </li>
           <li class="nav-item pl-3 ">
-            <A class="nav-link" href="#">TIME MACHINCE</A>
+            <A class="nav-link" href="#Timeline">TIME MACHINCE</A>
           </li>
           <li class="nav-item pl-4 ">
             <A class="nav-link" href="#">LOCATION</A>
           </li>
           <li class="nav-item pl-4 ">
-            <A class="nav-link" href="#">CONTACT</A>
+            <A class="nav-link" href="#Contact">CONTACT</A>
           </li>
         </ul>
       </div>

@@ -4,8 +4,7 @@ import styled from 'styled-components'
 const Bg = styled.div `
 background-image : url("/img/about.jpg") ;
 min-height : 100vh ;
-weight : 100vw ;
-overflow-x: hidden;
+width : 100vw ;
 text-align: center;
 background repeat : no-repeat;
 background-size: cover;
@@ -14,11 +13,11 @@ font-family : Kanit ;
 
 const Ab = styled.h1 `
 color : #FFFFFF ;
-font-size : 96px ;
+font-size : 80px ;
 font-family : Kanit ;
 font-weight : bold ;
 text-align : center;
-height : 144px ;
+height : 140px ;
 `
 const Img = styled.img`
     width: 200px ;   
@@ -31,20 +30,25 @@ background-color : rgba(0,0,0,.5) ;
 `
 
 const P1 = styled.h2 `
+Font-Family : Kanit;
 font-size : 31px ;
 font-weight : bold ;
 color : #FFFFFF ;
 text-align : center ;
 `
 
+const Topic = styled.div `
+padding-top : 70px ;
+font-size : 96 ;
+`
 
 
 const About = () => (
     <Bg>
-        <div className="d-flex justify-content-center align-items-center">
+        <Topic className="d-flex justify-content-center align-items-center">
             <Ab>ABOUT US</Ab>
             <Img src = "/img/wolfblack.png"/>
-        </div>
+        </Topic>
 
         <Blog className="container p-5"> 
 

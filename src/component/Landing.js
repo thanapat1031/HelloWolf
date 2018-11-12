@@ -8,7 +8,7 @@ background-image : url("/img/landing.png") ;
 font-family : Kanit ;
 background-repeat: no-repeat;
 background-size: cover;
-weight: 100vw;
+width: 100vw;
 min-height: 100vh;
 text-align : center;
 `
@@ -18,25 +18,33 @@ font-weight: bold;
 font-size: 150px;
 color : #FFFF;
 padding-top : 100px;
- Height: 299px;
+height: 299px;
 `
 const Img = styled.img`
 padding-bottom : 50px;
 `
 const Img1 = styled.img`
-paddin-bottom : ;
-
 `
+
+
+
 const Img2 = styled.img`
-
 `
+// const ImgIcon = styled.img`
+// padding-right :  30px;
+// margin-left : 1150px;
+// `
 
 const Landing = () => (
     <Bg>
         <Font>WOLF CAMP</Font>
-        <Img src='/img/Iconlanding.png'/>
-        <Img1 src='/img/Group2.png'/>
-        <Img2 src='/img/Group.png'/>
+        <div>
+            <Img src='/img/Iconlanding.png' />
+        </div>
+        <div className ="Landing-imgicon ml-auto pr-5">
+            <img src='/img/Group2.png' />
+            <img src='/img/Group.png' />
+        </div>
     </Bg>
 )
 
