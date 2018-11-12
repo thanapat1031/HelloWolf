@@ -20,8 +20,8 @@ font-family : Kanit ;
 font-weight : bold ;
 text-align : center;
 height : 144px ;
-padding-top : 150px ;
-padding-bottom : 150px ;
+padding-top : 100px ;
+padding-botton : 500px ;
 `
 const Font = styled.h1`
 padding-top : 150px ;
@@ -39,31 +39,15 @@ text-align: right;
 float: left;
 `
 
-const Pic = styled.img`
-padding-left : -900px ;
-`
-const Table = styled.div`
-padding-top : 150px ;
-padding-bottom : 150px ;
-margin-left : 40px ;
-`
-const Fontline = styled.h3`
-color : #FFFFFF ;
-font-size : 30px;
-/* Font-Family : Kanit; */
-font-weight: bold;
-text-align: center;
-padding-right : 250px; 
-`
 
-const Area = styled.div `
-padding-left : 180px ;
-
+const Pic = styled.td`
+padding-left : 900px;
 `
-
-const Area1 = styled.div `
-padding-left : 150px ;
-
+const Area = styled.div`
+padding-left : 180px;
+`
+const Area1 = styled.div`
+padding-left : 150px;
 `
 
 
