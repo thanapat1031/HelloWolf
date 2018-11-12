@@ -24,18 +24,11 @@ const Img = styled.img`
 padding-bottom : 50px;
 `
 const Img1 = styled.img`
-<<<<<<< HEAD
 `
-=======
-paddin-bottom : ;
->>>>>>> cbb8646a45db7f1b28b871567c3c8aed4c49e64f
 
-`
+
+
 const Img2 = styled.img`
-<<<<<<< HEAD
-=======
-
->>>>>>> cbb8646a45db7f1b28b871567c3c8aed4c49e64f
 `
 
 const Landing = () => (
