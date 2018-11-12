@@ -8,7 +8,7 @@ background-image : url("/img/landing.png") ;
 
 background-repeat: no-repeat;
 background-size: cover;
-weight: 100vw;
+width: 100vw;
 min-height: 100vh;
 text-align : center;
 `
@@ -18,7 +18,7 @@ font-weight: bold;
 font-size: 150px;
 color : #FFFF;
 padding-top : 100px;
- Height: 299px;
+height: 299px;
 `
 const Img = styled.img`
 padding-bottom : 50px;

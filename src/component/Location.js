@@ -6,7 +6,7 @@ const Bg = styled.div`
 background-image : url("/img/location.png") ;
 background-repeat: no-repeat;
 background-size: cover;
-weight: 100vw;
+width: 100vw;
 min-height: 100vh;
 text-align : center;
 `
