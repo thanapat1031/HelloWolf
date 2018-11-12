@@ -24,16 +24,25 @@ const Img = styled.img`
 padding-bottom : 50px;
 `
 const Img1 = styled.img`
+float : right ;
+
 `
 
 
 
 const Img2 = styled.img`
+float : right ;
+
 `
 // const ImgIcon = styled.img`
 // padding-right :  30px;
 // margin-left : 1150px;
 // `
+
+const Area = styled.div `
+padding-bottom : 115px ;
+`
+
 
 const Landing = () => (
     <Bg>
@@ -41,10 +50,10 @@ const Landing = () => (
         <div>
             <Img src='/img/Iconlanding.png' />
         </div>
-        <div className ="Landing-imgicon ml-auto pr-5">
-            <img src='/img/Group2.png' />
-            <img src='/img/Group.png' />
-        </div>
+        <Area className ="Landing-imgicon ml-auto pr-5 ">
+            <Img1 src='/img/Group2.png ' />
+            <Img2 src='/img/Group.png' />
+        </Area>
     </Bg>
 )
 
